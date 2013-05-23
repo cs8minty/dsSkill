@@ -808,9 +808,8 @@ function addSkill(parent, skill)
 	var img = document.createElement("IMAGE");
 	img.src = "";
 	if(skill == null){
-		
-	}
-	else{
+		img.style.background = "#fff";
+	} else {
 		img.style.background = "url("+skill.img+")";
 		img.skill = skill;
 	}
@@ -919,7 +918,7 @@ function update()
 		}
 	}
 	
-	aPoint.innerHTML = (maxPt-nowPt) + " / " + nowPt + " (요구 레벨: " + i + ")";
+	aPoint.innerHTML = (maxPt-nowPt) + " / " + maxPt + " (요구 레벨: " + i + ")";
 	//aPoint.innerHTML += "<br/>최소 요구 레벨: " + i + " 이하, (사용 포인트"+(maxPt-nowPt)+")";
 	aJob1.innerHTML = pts["워리어"];
 	aJob2.innerHTML = pts["메이지"];
