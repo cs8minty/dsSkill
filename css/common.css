@@ -1,0 +1,35 @@
+﻿body { padding-top: 20px; padding-bottom: 40px; }
+
+/* Custom container */
+.container-narrow {
+	margin: 0 auto;
+	max-width: 700px;
+}
+.container-narrow > hr { margin: 30px 0; }
+
+/* Main marketing message and sign up button */
+.jumbotron {
+	margin: 60px 0;
+	text-align: center;
+}
+.jumbotron h1 {
+	font-size: 72px;
+	line-height: 1;
+}
+.jumbotron .btn {
+	font-size: 21px;
+	padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing { margin: 60px 0; }
+.marketing p + h4 { margin-top: 28px; }
+
+.character { display: inline-block; text-align: center; margin-bottom: 10px; }
+
+img.job { border: solid 2px black; border-radius: 4px; }
+img.job:hover, img.job.on { border: solid 2px #3a87ad; border-radius: 4px; }
+
+.skilltree { display: none; padding: 10px !important; }
+.skilltree img { width: 64px; height: 64px; }
+.skilltree img:hover { cursor: pointer; }
