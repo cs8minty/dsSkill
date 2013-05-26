@@ -1009,19 +1009,9 @@ skills["성직자의 투지"] = {
 	move:	true,
 }
 
-skills["성직자의 투지"] = {
-	type:	"",
-	dec:	"디바인 브레이크 사용 시 주위 보스를 제외한 적을 100%확률로 수면에 빠뜨림",
-	img:	"http://cfile6.uf.tistory.com/image/22301948519D16A31B2966",
-	pt:		2,
-	need:	16,
-	job:	"클레릭",
-	move:	true,
-}
-
 skills["영혼의 수면"] = {
 	type:	"",
-	dec:	"",
+	dec:	"디바인 브레이크 사용 시 주위 보스를 제외한 적을 100%확률로 수면에 빠뜨림",
 	img:	"http://cfile6.uf.tistory.com/image/2446ED50519D16A210F02E",
 	pt:		5,
 	need:	24,
