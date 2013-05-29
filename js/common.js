@@ -641,7 +641,7 @@ function addSkill(parent, skill)
 	var img = document.createElement("IMAGE");
 	img.src = "";
 	if(skill == null){
-		img.src = "img/blank.png";
+		img.src = "img/mask/blank.png";
 	} else {
 		img.style.background = "url("+skill.img+")";
 		img.skill = skill;
@@ -723,15 +723,15 @@ function update()
 		//alert(btns[i].skill.need);
 		if(btns[i].master == true)
 		{
-			btns[i].src = "img/52M.png";
+			btns[i].src = "img/mask/M.png";
 		}
 		else if(btns[i].skill.need <= pts[btns[i].skill.job])
 		{
-			btns[i].src = "img/52blank.png";
+			btns[i].src = "img/mask/blank.png";
 		}
 		else
 		{
-			btns[i].src = "img/52a50.png";
+			btns[i].src = "img/mask/a50.png";
 		}
 	}
 	
