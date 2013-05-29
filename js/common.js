@@ -641,7 +641,7 @@ function addSkill(parent, skill)
 	var img = document.createElement("IMAGE");
 	img.src = "";
 	if(skill == null){
-		img.style.background = "#fff";
+		img.src = "img/blank.png";
 	} else {
 		img.style.background = "url("+skill.img+")";
 		img.skill = skill;
@@ -673,13 +673,10 @@ function addSkill(parent, skill)
 		var img = document.createElement("IMAGE");
 		img.src = this.src;
 		img.style.background = this.style.background;
-		img.style.border = "solid 2px black";
-		img.style.borderRadius = "6px";
-		img.width = 32;
-		img.height = 32;
+		img.className = "imgSkill";
 		
 		var star = document.createElement("IMAGE");
-		star.src = "http://cfile1.uf.tistory.com/image/2564EC4D519DB30A0F4B65";
+		star.src = "img/skillpoint_star.png";
 		
 		divPop.innerHTML = "";
 		divPop.appendChild(img);
@@ -726,15 +723,15 @@ function update()
 		//alert(btns[i].skill.need);
 		if(btns[i].master == true)
 		{
-			btns[i].src = "http://cfile2.uf.tistory.com/image/253B5A41519CF2DC400DF1";
+			btns[i].src = "img/52M.png";
 		}
 		else if(btns[i].skill.need <= pts[btns[i].skill.job])
 		{
-			btns[i].src = "http://cfile27.uf.tistory.com/image/25600B44519CF2443B8A9B";
+			btns[i].src = "img/52blank.png";
 		}
 		else
 		{
-			btns[i].src = "http://cfile29.uf.tistory.com/image/0302E044519CF2440A4D79";
+			btns[i].src = "img/52a50.png";
 		}
 	}
 	

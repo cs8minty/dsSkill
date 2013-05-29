@@ -31,7 +31,7 @@ img.job:hover, img.job.on { border: solid 2px #3a87ad; border-radius: 4px; }
 
 .skilltree { display: none; padding: 0 30px; }
 .skilltree.on { display: block; }
-.skilltree img { width: 48px; height: 48px; }
+.skilltree img { background-size: 48px auto !important; width: 48px; }
 .skilltree img:hover { cursor: pointer; }
 .skilltree span { 
 	display: inline-block;
@@ -53,3 +53,6 @@ img.job:hover, img.job.on { border: solid 2px #3a87ad; border-radius: 4px; }
 }
 
 #divPop hr { margin: 5px 0; }
+#divPop .imgSkill { background-size: 32px auto !important; width: 32px; border: solid 2px black; border-radius: 6px; }
+
+.footer img.banner { float: right; height: 35px; margin: 0 5px; vertical-align: center; }

@@ -3,10 +3,6 @@ nowPt = 567;
 
 skills = {};
 
-imgBlank = "http://cfile27.uf.tistory.com/image/25600B44519CF2443B8A9B";
-imgAlpha = "http://cfile29.uf.tistory.com/image/0302E044519CF2440A4D79";
-imgMaster = "http://cfile2.uf.tistory.com/image/253B5A41519CF2DC400DF1";
-
 var levels = [
 0	,
 0	,

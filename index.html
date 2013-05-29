@@ -4,18 +4,13 @@
 		<meta charset="utf-8">
 		<title>던전 스트라이커 스킬 시뮬레이터</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="">
-		<meta name="author" content="">
+		<meta name="description" content="skill simulator on dungeon striker">
 		
 		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 		<link href="css/common.css" rel="stylesheet" media="screen">
 	</head>
 
 <body>
-
-	<script src="http://code.jquery.com/jquery.js"></script>
-	<script src="js/skills.js"></script>
-	<script src="js/bootstrap.min.js"></script>
 	
 	<div class="container-narrow">
 		<div class="page-header">
@@ -27,6 +22,7 @@
 			<strong class="text-info" id="aPoint"></strong>
 		</p>
 		
+		<div>
 			<div class="character" onclick="selJob(1)">
 				<img src="http://cfile6.uf.tistory.com/image/277C4A4E519DAD252B621D" class="job job1" /><br />
 				<span class="label label-inverse">워리어 <span id="aJob1"></span></span>
@@ -71,13 +67,15 @@
 				<img src="http://cfile10.uf.tistory.com/image/0213FC4B519DAD222831A3" class="job job8" /><br />
 				<span class="label label-inverse">하프 <span id="aJob8"></span></span>
 			</div>
+		</div>
 			
-			<hr />
+		<hr />
 			
-			
+		<div>
 			<div id="divJob1" class="skilltree">
 				<h2>워리어<small>Warrior</small></h2>
 			</div>
+			
 			<div id="divJob2" class="skilltree">
 				<h2>메이지<small>Mage</small></h2>
 			</div>
@@ -121,46 +119,28 @@
 			<div id="divJob12" class="skilltree">
 				<h2>직업명<small>ClassName</small></h2>
 			</div>
-			
-			<div id="divPop" style="position: absolute; display: none; border: solid 1px #eee; width: 300px; background: #fff; padding: 4px; border-radius: 6px">
-			ff
-			</div>
+		</div>
+		
+		<div id="divPop" style="position: absolute; display: none; border: solid 1px #eee; width: 300px; background: #fff; padding: 4px; border-radius: 6px">
+		ff
+		</div>
 
-      <hr>
+		<hr>
 
-      <!-- <div class="row-fluid marketing">
-        <div class="span6">
-          <h4>Subheading</h4>
-          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+		<div class="footer">
+			<p>
+				Copyright by <a href="http://blog.naver.com/jingukangnc" target="_blank">Jay</a> / Designed by <a href="http://blog.sbira.com" target="_blank">SBIRA</a>
+				<a href="http://blog.naver.com/jingukangnc" target="_blank"><img src="img/jay.gif" class="banner" /></a>
+				<a href="https://github.com/sbira/dsSkill/" target="_blank"><img src="img/github.jpeg" class="banner" /></a>
+			</p>
       
-          <h4>Subheading</h4>
-          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-      
-          <h4>Subheading</h4>
-          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-        </div>
-      
-        <div class="span6">
-          <h4>Subheading</h4>
-          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-      
-          <h4>Subheading</h4>
-          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-      
-          <h4>Subheading</h4>
-          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-        </div>
-      </div>
-
-      <hr> -->
-
-      <div class="footer">
-		<p style="float: left;">Copyright by <a href="http://blog.naver.com/jingukangnc" target="_blank">Jay</a> / Designed by <a href="http://blog.sbira.com" target="_blank">SBIRA</a></p>
-		<p style="float: right;"><a href="http://blog.naver.com/jingukangnc" target="_blank" style="float: right;"><img src="http://cfile26.uf.tistory.com/image/02495C3F5195D80715CECB" style="height: 35px;" /></a></p>
-      </div>
+		</div>
 
     </div> <!-- /container -->
 	
+	<script src="http://code.jquery.com/jquery.js"></script>
+	<script src="js/skills.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 	<script src="js/common.js"></script>
 </body>
 
